@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>styleguide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="js/js.js"/>
-    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <link href="js/js.js"/> -->
+    <link rel="stylesheet" href="scss/css/style.css" />
   </head>
   <style media="screen">
   @font-face {
@@ -32,6 +32,9 @@
     src: url("fonts/21Cent_Italic.ttf") format("TrueType");
     font-style: italic;
     font-weight: normal;
+  }
+  html {
+  scroll-behavior: smooth;
   }
   </style>
   <body>
@@ -59,33 +62,16 @@
         <hr>
       </div>
       <ul>
-        <li>
-          <a class="o_brende" href="#">О бренде</a>
-        </li>
-        <li>
-          <a href="#">Логотип</a>
-        </li>
-        <li>
-          <a href="#">Цвета</a>
-        </li>
-        <li>
-          <a href="#">Типографика</a>
-        </li>
-        <li>
-          <a href="#">Сетка</a>
-        </li>
-        <li>
-          <a href="#">Фотография</a>
-        </li>
-        <li>
-          <a href="#">Графика</a>
-        </li>
-        <li>
-          <a href="#">Тон оф войс</a>
-        </li>
-        <li>
-          <a href="#">Носители</a>
-        </li>
+        <li><a class="menu" class="o_brende" href="#1">О бренде</a></li>
+        <li><a class="menu" href="#2">Логотип</a></li>
+        <li><a class="menu" href="#3">Цвета</a></li>
+        <li><a class="menu" href="#4">Типографика</a></li>
+        <li><a class="menu" href="#5">Сетка</a></li>
+        <li><a class="menu" href="#6">Композиция</a></li>
+        <li><a class="menu" href="#7">Фотография</a></li>
+        <li><a class="menu" href="#8">Графика</a></li>
+        <li><a class="menu" href="#9">Тон оф войс</a></li>
+        <li><a class="menu" href="#10">Носители</a></li>
       </ul>
       <img src="img/1_logo.svg" alt="">
     </div>
@@ -94,7 +80,7 @@
       <img class="_2" src="img/3_phrase.svg" alt="">
       <img class="_3" src="img/1_logo.svg" alt="">
     </div>
-    <div class="second_page">
+    <div class="second_page" id="1">
       <h1>Бренд</h1>
       <p>В основе айдентики лежит метафора записной книги или тетради, которые могут принадлежать как учёному, так и любому обывателю. Главное, что объединяет эти роли — желание исследовать тему витаминов. Именно поэтому основные графические элементы стиля задействуют предметы канцелярии, бумажные листы с сеткой и многое другое.</p>
       <h1>> слова</h1>
@@ -107,7 +93,7 @@
       <h1>> миссия</h1>
       <p>Обеспечить возможность легко находить витаминно-альтернативный продукт.</p>
     </div>
-    <div class="third_page">
+    <div class="third_page" id="2">
       <h1>Логотип</h1>
       <h1>> размерность</h1>
       <div class="logos_size">
@@ -162,7 +148,7 @@
         </div>
       </div>
     </div>
-    <div class="fourth_page">
+    <div class="fourth_page" id="3">
       <h1>Цвета</h1>
       <h1>> базовые</h1>
       <div class="colors1">
@@ -229,7 +215,7 @@
       </div>
       <h1 style="padding-bottom: 2vw;">> цветовые пары те же, что и цветовые сочетания логотипа</h1>
     </div>
-    <div class="fifth_page">
+    <div class="fifth_page" id="4">
       <h1>Типографика</h1>
       <p>Выбор шрифтов передает контраст уровней формальности, присущей языку бренда.<br><br>Поскольку В8 публикует научные и околонаучные данные, было необходимо передать серьезность и фундаментальность. В то же время стремление перевести эти данные на более понятный язык продиктовали внесение рукописности и ощущения присутствия жизни.</p>
       <h1>> шрифты</h1>
@@ -286,11 +272,11 @@
       <h1>> межстрочное расстояние</h1>
       <p>Межстрочное расстояние в заголовке и подзаголовке равняется величине кегля, в основном тексте и подписях оно больше величины кегля на 20%.</p>
       <h1>> в формате</h1>
-      <img style="width: 49.2vw;" class="v_formate1" src="img/12_v_formate.svg" alt="">
-      <img style="width: 24vw;" class="v_formate2" src="img/13_v_formate.svg" alt="">
-      <img style="width: 24vw;" class="v_formate3" src="img/14_v_formate.svg" alt="">
+      <img style="width: 60vw;" class="v_formate1" src="img/12_v_formate.svg" alt="">
+      <img style="width: 29.3vw;" class="v_formate2" src="img/13_v_formate.svg" alt="">
+      <img style="width: 29.3vw;" class="v_formate3" src="img/14_v_formate.svg" alt="">
     </div>
-    <div class="sixth_page">
+    <div class="sixth_page" id="5">
       <h1>Сетка</h1>
       <p>Основным вдохновением для создания сетки послужили тетради и записные книги, поэтому в основу структуры носителей В8 были положены 24 строки, а затем добавлены 8 колонок.</p>
       <h1>> правила</h1>
@@ -317,7 +303,7 @@
         <img src="img/19_grid.svg" alt="">
       </div>
     </div>
-    <div class="seventh_page">
+    <div class="seventh_page" id="6">
       <h1>Композиционные схемы</h1>
       <h1>> горизонтальный формат</h1>
         <div class="horizontal_schemes">
@@ -341,7 +327,7 @@
           <img style="margin: 1vw 0 0 0;" src="img/31_square_scheme.svg" alt="">
         </div>
     </div>
-    <div class="eighth_page">
+    <div class="eighth_page" id="7">
       <h1>Фотография</h1>
       <h1>> тематика</h1>
       <p>Фотографии демонстрируют мир растительной пищи во всей красе.<br><br>Они: солнечные, свежие, яркие, натуральные, заполненные, уютные, аппетитные.</p>
@@ -367,7 +353,7 @@
             </div>
           </div>
           <div class="picture_example3">
-            <img src="img/34_picture_example.svg" alt="">
+            <img src="img/34_picture_example.png" alt="">
             <div class="color_examples1">
               <div class="_1color"></div>
               <div class="_2color"></div>
@@ -398,7 +384,7 @@
         </div>
       </div>
     </div>
-    <div class="ninth_page">
+    <div class="ninth_page" id="8">
       <h1>Дополнительная графика</h1>
       <h1>> концепция</h1>
       <p>Дополнительная графика строится на изображении предметов, используемых в архивной/научной деятельности. В первую очередь это блокнотные листы с металлическими пружинами, скотч, стикеры, скрепки и многое другое.</p>
@@ -419,7 +405,7 @@
       <p style="padding-top: 2vw;" >Также в графическую систему входят изображения овалов, которые являются метафорой микроэлементов, рассматриваемых под микроспкопом. Их рекомендуемое количество на единице формата — от 3 до 5.</p>
       <img style="padding-bottom: 2vw;" src="img/43_dopolnitelnaya_grafika.svg" alt="">
     </div>
-    <div class="tenth_page">
+    <div class="tenth_page" id="9">
       <h1>Тон оф войс</h1>
       <p>Наша миссия — дать возможность людям легко и быстро подобрать альтернативу продукту, который они не едят. Именно поэтому мы выбрали язык фактов, несмотря на то, что в мире много других языков.</p>
       <div class="images">
