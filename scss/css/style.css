@@ -137,6 +137,11 @@ h5 {
   position: absolute;
   bottom: 0;
 }
+.left_bar a:hover {
+  color: #FC4A27;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 .left_bar li {
   position: relative;
   height: 2.4vw;
@@ -566,11 +571,7 @@ h5 {
 }
 .eighth_page .picture_examples1 .picture_example1, .eighth_page .picture_examples1 .picture_example2, .eighth_page .picture_examples1 .picture_example3, .eighth_page .picture_examples1 .picture_example4 {
   display: inline-block;
-  width: 31vw;
-}
-.eighth_page .picture_examples1 .picture_example1 {
-  width: 31vw;
-  display: inline-block;
+  width: 32.5vw;
 }
 .eighth_page .picture_examples1 .picture_example1 img {
   width: 20vw;
