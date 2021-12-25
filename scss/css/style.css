@@ -761,3 +761,6 @@ h5 {
 .eleventh_page h1 {
   color: #FC4A27;
 }
+.eleventh_page img {
+  border-radius: 1vw;
+}
